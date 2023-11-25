@@ -1,4 +1,4 @@
-# Tesseract OCR Integration with Django Backend and Bootstrap Frontend
+# Tesseract OCR Integration with Django Backend and Bootstrap + Tailwind CSS Frontend
 
 ## Project Overview
 
