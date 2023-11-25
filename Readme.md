@@ -1,60 +1,57 @@
+# Tesseract OCR Integration with Django Backend and Bootstrap Frontend
 
-# Text Extractor/ OCR in Django
+## Project Overview
 
+This project aims to provide a comprehensive solution for extracting text from images using Tesseract OCR, a powerful open-source optical character recognition engine. The project utilizes Python scripting to integrate Tesseract OCR with a robust Django backend and a user-friendly Bootstrap frontend, creating a seamless and efficient image-to-text conversion experience.
 
-A django webapp for scanning texts from images, simply you have to upload image and it will provide you with texts found
+## Key Features
 
+* **Accurate Text Extraction:** Tesseract OCR's advanced algorithms ensure high-precision text extraction from a wide range of images, including scanned documents, hand-written notes, and photographs.
 
+* **Django Backend Strength:** Django, a secure and scalable backend framework, forms the project's backbone. It handles user interactions, data processing, and real-time updates, ensuring a reliable and efficient system.
 
-## Home page
+* **Bootstrap-Powered Frontend:** Bootstrap, a popular responsive framework, powers the project's frontend. It creates a user-friendly interface that adapts seamlessly to various devices, enhancing user experience and accessibility.
 
-![App Screenshot](https://cdn.discordapp.com/attachments/884460118715019274/945247468747124736/unknown.png)
+## Benefits
 
-## Result page
+* **Automated Text Extraction:** The project automates the process of extracting text from images, saving time and effort compared to manual transcription.
 
-![App Screenshot](https://cdn.discordapp.com/attachments/884460118715019274/945247765259247616/unknown.png)
+* **Improved Efficiency:** The combination of Tesseract OCR and Django's processing capabilities ensures efficient and accurate text extraction.
 
-## Nepali Language
-![App Screenshot](https://media.discordapp.net/attachments/884460118715019274/945248254428323850/unknown.png)
+* **Enhanced User Experience:** Bootstrap's responsive design provides a consistent and user-friendly experience across various devices.
 
-## Hindi Language
-![App Screenshot](https://media.discordapp.net/attachments/884460118715019274/945248807912882206/unknown.png)
+## Target Users
 
-Currently i have included commonly used language list only, feature request for another langauges are welcomed ;)
-- English
-- Nepali
-- Hindi
+* Individuals and organizations dealing with large volumes of image-based documents.
 
-## Installation
+* Researchers and developers working on image processing and data extraction tasks.
 
-```bash
-  git clone https://github.com/ASACHIT/OCR-django-app.git
-  cd OCR-django-app
-  pip install -r requirements
-  python manage.py runserver 
-  # open localhost:8000  url in browser 
-```
-Note: You have to install [tesseract module](https://github.com/UB-Mannheim/tesseract/wiki) too
-## Frameworks/lib used
-- Tailwindcss
-- django
-- pytesseract
+* Anyone seeking an easy-to-use tool for converting images to text.
 
-## Things i learnt after creating this project
+## Project Setup
 
-- Taking image input from user 
-- Processing input image without saving it anywhere and uploading it directly to user
-- scanning text from image (backend)
-- and other many more
+1. **Clone the project repository:** git clone https://github.com/lakshyabijarnia/Learn-Django.git
 
+2. **Install dependencies:** pip install -r requirements.txt
 
-## Features
-- Quickly Upload image and get scanned text 
-- Image is Not saved, it is directly processed in memory and directly sent to you
-- Friendly and Clean UI
+3. **Set up database:** Create a database and configure Django settings.py
 
-## Contributing
+4. **Run Django migrations:** python manage.py makemigrations && python manage.py migrate
 
-Contributions are always welcome!
+5. **Start the Django development server:** python manage.py runserver
 
+## Project Usage
 
+1. **Access the application:** Open http://localhost:8000 in a web browser.
+
+2. **Upload an image:** Click the "Choose File" button and select the image you want to extract text from.
+
+3. **Extract text:** Click the "Extract Text" button. The extracted text will be displayed below the image.
+
+## Future Enhancements
+
+* **Cloud Integration:** Integrate the project with cloud platforms for scalable image processing and storage.
+
+* **Language Support:** Expand language support to extract text from multilingual documents.
+
+* **Advanced Image Processing:** Implement advanced image processing techniques to handle complex image formats and improve text extraction accuracy.
